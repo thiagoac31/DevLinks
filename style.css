@@ -39,14 +39,36 @@ body{
 }
 
 #profile img {
-    width: 112px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
+
+    border: 4px solid transparent;
+    background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
 }
 
-#profile p {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 8px;
+
+#profile #presentation {
+    
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#profile span {
+    color: #086be3;
+}
+
+#profile #information {
+    font-size: 0.9rem;
+    color: #9ea0a0;
+}
+
+
+.light #profile #information {
+    color: #434343;
 }
 
 #switch {
